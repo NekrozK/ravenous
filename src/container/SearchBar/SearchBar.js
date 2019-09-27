@@ -11,6 +11,7 @@ class SearchBar extends React.Component{
         };
 
         //Se tiene que bind porque este se declaro, haciendo que su this pierda su contexto
+        //En cambio si se usa arrow function como los otros, this no pierde su contexto
         this.handleTermChange = this.handleTermChange.bind(this);
     }
 

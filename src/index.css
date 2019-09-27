@@ -2,6 +2,10 @@
 
 html {
     font-size: 18px;
+    background: linear-gradient(180deg, rgb(0, 0, 0), #cca353);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-attachment: fixed;
 }
 
 @media only screen and (max-width: 560px) {
@@ -41,4 +45,5 @@ h1 {
     font-family: Poppins, sans-serif;
     font-size: 1.8rem;
     color: #fff;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
 }

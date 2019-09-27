@@ -4,17 +4,31 @@
     justify-content: space-between;
     width: 16.66rem;
     margin: 0 .5rem 2.3rem .5rem;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: #eee;
+    box-shadow: 10px 10px 6px 1px rgba(0,0,0,0.5);
+    transition: all 0.5s;
+}
+
+.Business:hover {
+    cursor: pointer;
+    transform: scale(1.05);
 }
 
 .Business .image-container {
     height: 16.66rem;
     margin-bottom: 1rem;
+    border-radius: 10px 10px 0 0;
 }
 
 .Business h2 {
     margin-bottom: .5rem;
     font-size: 1.2rem;
     font-weight: 600;
+    text-align: center;
+    margin: 15px 5px;
+    text-transform: capitalize;
 }
 
 .Business-information {
@@ -32,6 +46,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-left: 10px;
 }
 
 .Business-reviews {
@@ -39,6 +54,7 @@
     flex-direction: column;
     justify-content: space-between;
     text-align: right;
+    margin-right: 10px;
 }
 
 .Business-reviews h3 {

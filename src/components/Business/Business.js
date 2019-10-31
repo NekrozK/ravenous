@@ -3,7 +3,7 @@ import './Business.css';
 
 const Business = ({ business }) =>{
     return (
-        <div className="Business">
+        <div className="Business" onClick={ () => window.location.href = business.url } >
             <div className="image-container">
                 <img src={ business.imageSrc } alt='the restaurant'/>
             </div>
